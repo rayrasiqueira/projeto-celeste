@@ -244,24 +244,25 @@ footer {
 
 @media (min-width:992px) and (max-width:850px) {
     .content {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
 
-@media (min-width:481px) and (max-width:991px) {
+@media (min-width:451px) and (max-width:991px) {
     .content {
-        display: grid;
-        grid-template-columns: 1fr;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
 
 @media (min-width:320) and (max-width:480px) {
     .content {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
